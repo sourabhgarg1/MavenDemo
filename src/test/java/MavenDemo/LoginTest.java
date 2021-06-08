@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest {
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	@Test
 	public void doLogin()
