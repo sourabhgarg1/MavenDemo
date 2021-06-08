@@ -23,7 +23,7 @@ public class LoginTest {
 		
 		driver.get("https://www.google.com/");
 		
-		driver.findElement(By.name("q")).sendKeys("Hello");
+		driver.findElement(By.name("q")).sendKeys("Hello");//key feature added
 	}
 
 }
